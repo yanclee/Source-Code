@@ -1,0 +1,23 @@
+自訂屬性custom attribute
+<Tag data-xxx
+
+
+<div>
+  <h1>aaa</h1>
+  <h2>bbb</h2>
+</div>
+
+$("div").html() ==>
+
+  <h1>aaa</h1>
+  <h2>bbb</h2>
+
+$("div").text() ==>
+aaabbb
+
+
+$("div").html() ==>xxx
+$("div").text() ==>xxx
+<div>
+xxx
+</div>
